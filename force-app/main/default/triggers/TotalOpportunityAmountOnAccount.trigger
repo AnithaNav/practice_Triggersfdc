@@ -1,3 +1,4 @@
+//Write a Trigger to get total amt of all opps of a account in Accout Object's customfield-Total_Opportunity_Amount
 trigger TotalOpportunityAmountOnAccount on Account (before update) {
     if (Trigger.isBefore && Trigger.isUpdate) {
 
